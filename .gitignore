@@ -1,0 +1,56 @@
+# Xcode
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+*.swiftpm/config/registries.json
+*.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+*.resolved
+
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Whisper Models (large files)
+models/*.bin
+models/*.ggml
+
+# Build outputs
+ios/build/
+android/build/
+android/app/build/
+
+# Dependencies
+node_modules/
+ios/Pods/
+android/.gradle/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

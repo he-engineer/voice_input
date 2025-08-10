@@ -1,0 +1,27 @@
+{
+  "models": {
+    "tiny.en": {
+      "filename": "ggml-tiny.en-q5_1.bin",
+      "size_bytes": 32166155,
+      "size_mb": 30.7,
+      "description": "Fastest, lowest accuracy - good for testing",
+      "format": "ggml-q5_1"
+    },
+    "base.en": {
+      "filename": "ggml-base.en-q5_1.bin",
+      "size_bytes": 59721011,
+      "size_mb": 57.0,
+      "description": "Balanced speed and accuracy - recommended default",
+      "format": "ggml-q5_1"
+    },
+    "small.en": {
+      "filename": "ggml-small.en-q5_1.bin",
+      "size_bytes": 190098681,
+      "size_mb": 181.3,
+      "description": "Slower, higher accuracy - for powerful devices",
+      "format": "ggml-q5_1"
+    }
+  },
+  "created_at": "2024-01-01T00:00:00Z",
+  "version": "1.0.0"
+}
